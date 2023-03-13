@@ -1,1 +1,1 @@
-# tindog
+# a responsive website-tindog
