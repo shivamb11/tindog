@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h2 {    
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 12% 8%;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.download-button {
+    margin: 2rem 0.5rem;
+}
+
+#iphone-container {
+    position: relative;
+}
+
+#iphone-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 992px) {
+    #iphone-img {
+        transform: rotate(0);
+        position: static
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#features{
+    padding: 7% 15% 9%;  /* Do not use rem here */
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-icon {
+    color: #ef8172;
+    padding: 1.5rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 6% 18%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    padding: 2rem 0;
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+.press-img {
+    width: 15%;
+    margin: 0 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.card {
+    margin: 20px;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 13%;
+}
+
+#outro {
+    font-size: 3rem;
+}
+
+.download-button2 {
+    margin: 5rem 0.5rem;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.footer-icons {
+    padding: 1rem;
+}
